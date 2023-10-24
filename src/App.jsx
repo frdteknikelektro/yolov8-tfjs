@@ -21,7 +21,7 @@ const App = () => {
 
   // model configs
   // const modelName = "yolov8n";
-  const modelName = "shrimpyolov8s";
+  const modelName = "shrimpyolov8n";
 
   useEffect(() => {
     tf.ready().then(async () => {
